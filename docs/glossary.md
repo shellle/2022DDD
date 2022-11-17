@@ -4,11 +4,11 @@
 
 | 会話文(ドメイン)|プログラム上(単数)| 複数 |概要|
 | ---- | ---- | ---- | ---- |
-|チャットグループ|Chat_Group|Chat_Groups|ユーザーが作成したチャットグループ|
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
+|チャットグループ【名前】|Chat_Group|Chat_Groups|ユーザーが作成したチャットグループ|
+|【所属メンバー】|  TD  |  TH  |  TH  |
+|【メッセージ】|  TD  |  TH  |  TH  |
+|【送信予定時刻】|  TD  |  TH  |  TH  |
+|【送信予定のメッセージ】|  TD  |  TH  |  TH  |
+|【スケジューラー】|  TD  |  TH  |  TH  |
 |  TD  |  TD  |  TH  |  TH  |
 |  TD  |  TD  |  TH  |  TH  |
