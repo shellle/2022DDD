@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 
 import 'package:flutter_application_1/domain/value/chat_group_id.dart';
-import 'package:flutter_application_1/domain/value/user_name.dart';
+import 'package:flutter_application_1/domain/value/chat_group_name.dart';
 
 export 'package:flutter_application_1/domain/value/chat_group_id.dart';
-export 'package:flutter_application_1/domain/value/user_name.dart';
+export 'package:flutter_application_1/domain/value/chat_group_name.dart';
 
 class User {
   final ChatGroupId id;
-  UserName _name;
+  Chat_group_name _name;
 
-  User({required this.id, required UserName name}) : _name = name;
+  User({required this.id, required Chat_group_name name}) : _name = name;
 
-  UserName get name => _name;
+  Chat_group_name get name => _name;
 
   @override
   // ignore: avoid_equals_and_hash_code_on_mutable_classes
@@ -24,7 +24,7 @@ class User {
   // ignore: avoid_equals_and_hash_code_on_mutable_classes
   int get hashCode => runtimeType.hashCode ^ id.hashCode;
 
-  void changeName(UserName newName) {
+  void changeName(Chat_group_name newName) {
     _name = newName;
   }
 }

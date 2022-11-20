@@ -30,7 +30,7 @@ class Message_text {
   }
   @override
   bool operator ==(Object other) =>
-      identical(other, this) || (other is UserName && other.value == value);
+      identical(other, this) || (other is Message_text && other.value == value);
 
   @override
   int get hashCode => runtimeType.hashCode ^ value.hashCode;
