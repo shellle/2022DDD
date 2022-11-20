@@ -8,11 +8,11 @@
 
 
 # ・DDD学習+実践
-[ユビキタス言語リストの作成](https://github.com/shellle/2022DDD/issues/2)
+[ユビキタス言語リストの作成](https://github.com/shellle/2022DDD/blob/main/docs/glossary.md)
 
-[ドメインモデル図作成](https://github.com/shellle/2022DDD/issues/3)
+[ドメインモデル図作成](https://jamboard.google.com/d/1uGZRZv9cueW5gSGG5AJE5y6FKuW7oalorTP9JX3y5Qo/viewer?f=1)
 
-[ドメインオブジェクトの型定義](https://github.com/shellle/2022DDD/issues/4)
+[ドメインオブジェクトの型定義](https://github.com/shellle/2022DDD/blob/main/docs/domain.md)
 
 
 
