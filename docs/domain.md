@@ -7,7 +7,7 @@
 |chat_group|  Class  |  ---  |  ---  |
 |chat_group_name|  Strings  |  20字以下  |  編集  |
 |chat_group_id|  Strings  |  20字以下,不変  |  ---  |
-|chat_group_member_list|  Strings<List>  |  20字以下  |  追加,削除  |
+|chat_group_member_list|  Strings <List>  |  20字以下  |  追加,削除  |
 |chat_group_unrecievable_start_time|  DateTime  |  ---  |  編集,削除  |
 |chat_group_unrecievable_end_time|  DateTime  |  存在非存在がchat_group_unrecievable_start_timeと同期  |  編集,削除  |
 | ---- | ---- | ---- | ---- |
