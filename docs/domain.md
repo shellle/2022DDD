@@ -22,5 +22,3 @@
 |user|  Class  |  ---  |  ---  |
 |user_name|  Strings  |  20字以下  |  名前変更  |
 |user_id|  int  |  20字以下,不変  |  ---  |
-
-
