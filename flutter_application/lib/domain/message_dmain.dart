@@ -10,8 +10,10 @@ export 'package:flutter_application_1/domain/value/message_text.dart';
 class User {
   final MessageId id;
   Message_text _name;
+  DateTime message_time = DateTime(2020, 10, 2, 12, 10);
 
-  User({required this.id, required Message_text name}) : _name = name;
+  User({required this.id, required Message_text name, message_time})
+      : _name = name;
 
   Message_text get name => _name;
 

@@ -10,8 +10,13 @@ export 'package:flutter_application_1/domain/value/unsent_message_text.dart';
 class User {
   final UnsentMessageId id;
   Unsent_message_text _name;
+  DateTime Unsent_message_time = DateTime(2020, 10, 2, 12, 10);
 
-  User({required this.id, required Unsent_message_text name}) : _name = name;
+  User(
+      {required this.id,
+      required Unsent_message_text name,
+      Unsent_message_time})
+      : _name = name;
 
   Unsent_message_text get name => _name;
 
