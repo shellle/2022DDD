@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 
-class UserId {
+class MessageId {
   final String value;
 
-  UserId(this.value) {
+  MessageId(this.value) {
     if (value == null || value.isEmpty) {
       try {
         throw Exception('code: ExceptionCode.UserId');
@@ -30,7 +30,7 @@ class UserId {
   }
   @override
   bool operator ==(Object other) =>
-      identical(other, this) || (other is UserId && other.value == value);
+      identical(other, this) || (other is MessageId && other.value == value);
 
   @override
   int get hashCode => runtimeType.hashCode ^ value.hashCode;

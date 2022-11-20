@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 
-import 'package:flutter_application_1/domain/value/user_id.dart';
+import 'package:flutter_application_1/domain/value/chat_group_id.dart';
 import 'package:flutter_application_1/domain/value/user_name.dart';
 
-export 'package:flutter_application_1/domain/value/user_id.dart';
+export 'package:flutter_application_1/domain/value/chat_group_id.dart';
 export 'package:flutter_application_1/domain/value/user_name.dart';
 
 class User {
-  final UserId id;
+  final ChatGroupId id;
   UserName _name;
 
   User({required this.id, required UserName name}) : _name = name;
