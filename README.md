@@ -1,5 +1,5 @@
 
-# ・議事録
+# ・ドメインオブジェクトの実装
 [ドメイン記述](https://github.com/shellle/2022DDD/tree/main/flutter_application/lib)
 
 
