@@ -14,9 +14,5 @@
 |user_name|  Strings  |  TH  |  TH  |
 |user_id|  int  |  TH  |  TH  |
 
-class Chat_group {
- String chat_group_name;
- list chat_group_member_list;
- int chat_group_id;
-}
+
 
