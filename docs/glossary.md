@@ -15,9 +15,9 @@
 |メッセージテキスト|message_text|message_texts|グループに送信されたメッセージの文章|
 |メッセージ送信時刻|message_time|message_times|グループに送信されたメッセージの送信日時と時刻|
 | ---- | ---- | ---- | ---- |
-|【送信予定のメッセージ】|uresent_message|uresent_message|送信予定のメッセージドメイン|
-|送信予定のメッセージテキスト|uresent_message_text|uresent_message_texts|送信予定のメッセージの文章|
-|【送信予定時刻】|uresent_message_time|uresent_message_times|【送信予定のメッセージ】の送信予定時刻|
+|【送信予定のメッセージ】|unsent_message|uresent_message|送信予定のメッセージドメイン|
+|送信予定のメッセージテキスト|unsent_message_text|unsent_message_texts|送信予定のメッセージの文章|
+|【送信予定時刻】|unsent_message_time|uresent_message_times|【送信予定のメッセージ】の送信予定時刻|
 | ---- | ---- | ---- | ---- |
 |【スケジューラー】|scheduler|schedulers|【送信予定のメッセージ】を【送信予定時刻】に送信するサーバー上の処理|
 | ---- | ---- | ---- | ---- |
