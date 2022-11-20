@@ -7,7 +7,7 @@ class Unsent_message_text {
   Unsent_message_text(this.value) {
     if (value == null || value.isEmpty) {
       try {
-        throw Exception('code: ExceptionCode.UserName');
+        throw Exception('code: ExceptionCode.Unsent_message_text');
       } on Exception catch (err, stacktrace) {
         print(err);
         print(stacktrace);
@@ -18,7 +18,7 @@ class Unsent_message_text {
     }
     if (value.length > 20) {
       try {
-        throw Exception('code: ExceptionCode.UserName, max: 20');
+        throw Exception('code: ExceptionCode.Unsent_message_text, max: 200');
       } on Exception catch (err, stacktrace) {
         print(err);
         print(stacktrace);

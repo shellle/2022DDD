@@ -7,7 +7,7 @@ class UnsentMessageId {
   UnsentMessageId(this.value) {
     if (value == null || value.isEmpty) {
       try {
-        throw Exception('code: ExceptionCode.UserId');
+        throw Exception('code: ExceptionCode.UnsentMessageId');
       } on Exception catch (err, stacktrace) {
         print(err);
         print(stacktrace);
@@ -18,7 +18,7 @@ class UnsentMessageId {
     }
     if (value.length > 20) {
       try {
-        throw Exception('code: ExceptionCode.UserId, max: 20');
+        throw Exception('code: ExceptionCode.UnsentMessageId, max: 20');
       } on Exception catch (err, stacktrace) {
         print(err);
         print(stacktrace);

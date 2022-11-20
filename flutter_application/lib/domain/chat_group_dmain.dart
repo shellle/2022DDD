@@ -10,8 +10,15 @@ export 'package:flutter_application_1/domain/value/chat_group_name.dart';
 class User {
   final ChatGroupId id;
   Chat_group_name _name;
+  DateTime chat_group_unrecievable_start_time = DateTime(2022, 11, 21, 12, 00);
+  DateTime chat_group_unrecievable_end_time = DateTime(2022, 11, 21, 18, 00);
 
-  User({required this.id, required Chat_group_name name}) : _name = name;
+  User(
+      {required this.id,
+      required Chat_group_name name,
+      chat_group_unrecievable_start_time,
+      chat_group_unrecievable_end_time})
+      : _name = name;
 
   Chat_group_name get name => _name;
 

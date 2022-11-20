@@ -7,7 +7,7 @@ class Chat_group_name {
   Chat_group_name(this.value) {
     if (value == null || value.isEmpty) {
       try {
-        throw Exception('code: ExceptionCode.UserName');
+        throw Exception('code: ExceptionCode.Chat_group_name');
       } on Exception catch (err, stacktrace) {
         print(err);
         print(stacktrace);
@@ -18,7 +18,7 @@ class Chat_group_name {
     }
     if (value.length > 20) {
       try {
-        throw Exception('code: ExceptionCode.UserName, max: 20');
+        throw Exception('code: ExceptionCode.Chat_group_name, max: 20');
       } on Exception catch (err, stacktrace) {
         print(err);
         print(stacktrace);
