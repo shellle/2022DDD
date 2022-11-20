@@ -12,11 +12,11 @@
 |chat_group_unrecievable_end_time|  DateTime  |  存在非存在がchat_group_unrecievable_start_timeと同期  |  編集,削除  |
 | ---- | ---- | ---- | ---- |
 |message|  Class  |  ---  |  削除  |
-|message_text|  Strings  |  20字以下  |  編集  |
+|message_text|  Strings  |  200字以下  |  編集  |
 |message_time|  DateTime  |  不変  |  ---  |
 | ---- | ---- | ---- | ---- |
 |uresent_message|  Class  |  ---  |  削除  |
-|uresent_message_text|  Strings  |  20字以下  |  編集  |
+|uresent_message_text|  Strings  |  200字以下  |  編集  |
 |uresent_message_time|  DateTime  |  設定された時刻以降  |  時刻変更  |
 | ---- | ---- | ---- | ---- |
 |scheduler|  ---  |  ---  |  ---  |
