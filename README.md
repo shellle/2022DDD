@@ -1,5 +1,10 @@
 
 # ・議事録
+[ドメイン記述](https://github.com/shellle/2022DDD/tree/main/flutter_application/lib)
+
+
+
+# ・議事録
 [2022/11/16](https://github.com/shellle/2022DDD/issues/1)
 
 [2022/11/17](https://github.com/shellle/2022DDD/issues/5)
