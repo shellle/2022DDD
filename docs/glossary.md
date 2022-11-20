@@ -8,8 +8,8 @@
 |チャットグループ名【名前】|chat_group_name|chat_group_names|ユーザーが作成したチャットグループ|
 |チャットグループID|chat_group_id|chat_group_ids|ユーザーが作成したチャットグループのID|
 |【所属メンバー】|chat_group_member_list|chat_group_member_lists|グループのメンバーのユーザーIDのリスト|
-|メッセージ取得不可能開始時刻|chat_group_unrecievable_start_time|chat_group_unrecievable_start_time|ユザーがステータスによってメッセージを受信不可能になる開始時刻
-|メッセージ取得不可能終了時刻|chat_group_unrecievable_end_time|chat_group_unrecievable_end_times|ユザーがステータスによってメッセージを受信不可能になる終了時刻
+|メッセージ取得不可能開始時刻|chat_group_unrecievable_start_time|chat_group_unrecievable_start_time|ユザーがステータスによってメッセージを受信不可能になる開始時刻|
+|メッセージ取得不可能終了時刻|chat_group_unrecievable_end_time|chat_group_unrecievable_end_times|ユザーがステータスによってメッセージを受信不可能になる終了時刻|
 | ---- | ---- | ---- | ---- |
 |【メッセージ】|message|messages|グループに送信されたメッセージ|
 |メッセージテキスト|message_text|message_texts|グループに送信されたメッセージの文章|
