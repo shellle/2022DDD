@@ -6,8 +6,8 @@
 | ---- | ---- | ---- | ---- |
 |chat_group|  Class  |  ---  |  ---  |
 |chat_group_name|  Strings  |  20字以下  |  編集  |
-|chat_group_id|  int  |  20字以下,不変  |  ---  |
-|chat_group_member_list|  int<List>  |  20字以下  |  追加,削除  |
+|chat_group_id|  Strings  |  20字以下,不変  |  ---  |
+|chat_group_member_list|  Strings<List>  |  20字以下  |  追加,削除  |
 |chat_group_unrecievable_start_time|  DateTime  |  設定された時刻以降  |  追加,削除  |
 |chat_group_unrecievable_end_time|  DateTime  |  設定された時刻以降  |  追加,削除  |
 | ---- | ---- | ---- | ---- |
@@ -23,4 +23,4 @@
 | ---- | ---- | ---- | ---- |
 |user|  Class  |  ---  |  ---  |
 |user_name|  Strings  |  20字以下  |  名前変更  |
-|user_id|  int  |  20字以下,不変  |  ---  |
+|user_id|  Strings  |  20字以下,不変  |  ---  |
