@@ -24,7 +24,3 @@
 |ユーザー|user|users|サービスを利用するユーザーそれぞれを定義するオブジェクト|
 |ユーザー名|user_name|user_names|ユーザーが設定した表示名|
 |ユーザーID|user_id|user_ids|ユーザーそれぞれに割り当てられたID|
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
-|  TD  |  TD  |  TH  |  TH  |
